@@ -15,7 +15,7 @@ output "internal_ipaddr_vm2" {
   value       = module.vm2.internal_ipaddr_vm
 }
 
-output "external_ipaddr_vm02" {
+output "external_ipaddr_vm2" {
   description = "vm2 external ip"
   value       = module.vm2.external_ipaddr_vm
 }

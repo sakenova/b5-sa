@@ -1,8 +1,8 @@
 resource "yandex_compute_instance" "vm" {
   description        = "Creating new instance with the name"
   name               = var.instance_name
-  service_account_id = data.yandex_iam_service_account.user_id.id
-  zone               = var.zone_name
+  service_account_id = var.sa0_id
+  zone               = var.zone
 
   resources {
     cores  = 2
@@ -39,8 +39,7 @@ data "yandex_vpc_subnet" "subnet" {
 }
 
 # Get SA ID
-
 data "yandex_iam_service_account" "user_id" {
-  name = "sa"
+  name = "sa0"
 }
 
