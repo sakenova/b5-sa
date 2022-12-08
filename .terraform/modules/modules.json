@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"bucket1","Source":"./modules/bucket","Dir":""},{"Key":"vm1","Source":"./modules/instance","Dir":"modules/instance"},{"Key":"vm2","Source":"./modules/instance","Dir":"modules/instance"},{"Key":"","Source":"","Dir":"."}]}
